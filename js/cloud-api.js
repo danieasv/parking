@@ -62,6 +62,6 @@ class NRFCloudAPI {
 		const start = new Date(end - 450000000);
 		//this.getMessages_start = new Date();
 		const devIdsParam = deviceId ? `&deviceIdentifiers=${deviceId}` : '';
-		return this.get(`/messages?inclusiveStart=${start.toISOString()}&exclusiveEnd=${end.toISOString()}${devIdsParam}&pageSort=desc`);
+		return this.get(`/messages?inclusiveStart=${start.toISOString()}&exclusiveEnd=${end.toISOString()}${devIdsParam}&pageLimit=10&pageSort=desc`);
 	}
 }

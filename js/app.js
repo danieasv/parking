@@ -43,13 +43,10 @@ const updateFunc = {
 			lastSensorMessage = Number(new Date());
 			console.log('Button pressed');
 			if (!button_pressed) {
-				showToast('','','BUTTON', 'success', 2000); 
+				showToast('','','BUTTON PRESSED', 'success', 2000); 
 				button_pressed = true;
 			}
 		} 
-		else if (data === '0') {
-			button_pressed = false;
-		}
 	},
 	TEMP: data => {
 		lastSensorMessage = Number(new Date());
@@ -167,6 +164,7 @@ $(document).ready(() => {
 	// Order view, start ordering:
 	$('#trackBtn').click(({ target }) => {
 		orderPizza();
+		button_pressed = false;
 
 	});
 });
