@@ -1,0 +1,110 @@
+#leaflet-map {
+	height: 0px;
+	margin-top: 50px;
+}
+
+.whole-screen {
+	width: 100%;
+	height: 100vh;
+}
+
+.whole-width {
+	width: 100%;
+}
+
+.menu {
+	height: 50px;
+	background-color: #4bef7d;
+	color: black;
+	padding-top: 5px;
+}
+
+.desktop-friendly-size {
+	max-width: 500px!important;
+}
+
+.black{
+	background-color: white;
+}
+
+.delivery {
+	background-color: white;
+}
+
+.temperature {
+	background-color: white;
+}
+
+.shaking {
+	background-color: white;
+}
+
+.orientation {
+	background-color: white;
+}
+
+.flex-even {
+	flex: 1;
+}
+
+.pizza-icon {
+	height: 28px;
+	vertical-align: unset;
+}
+
+.settings-icon {
+	height: 20px;
+	vertical-align: unset;
+	margin-bottom: 5px;
+}
+
+.main {
+	background-color:white;
+}
+
+.card {
+	border: 0px;
+}
+
+.list-group-item.active,
+.btn-nrf {
+	color:black!important;
+	background-color: #8cc63f;
+	border-color: #8cc63f;
+}
+
+.nrf-blue {
+	color: #8cc63f;
+}
+
+.nrf-light-blue {
+	color:black;
+}
+
+.top-card {
+	margin-top: 70px;
+}
+
+.border-bottom {
+	border-bottom-color: lightgrey;
+}
+
+border-right {
+	border-right-color: lightgrey;
+}
+
+.border-top {
+	border-top-color: lightgrey;
+}
+
+#splashView {
+	background-color: white;
+}
+
+#mainlogo {
+	width: 250px;
+}
+
+#flip-image {
+	width: 100px;
+}
