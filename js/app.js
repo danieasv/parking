@@ -79,7 +79,7 @@ function orderPizza() {
 			
 			updateFunc[appId](data);
 		});
-	}, 1000);
+	}, 2000);
 
 	counterInterval = setInterval(() => {
 		if (timeSince(new Date(messageReceivedTime)) !== 'NaN sekunder'){
