@@ -33,9 +33,9 @@ const updateFunc = {
 	DISTANCE: data => {
 		lastSensorMessage = Number(new Date());
 		if (data >= '1') {
-			$('#parking1').text('LEDIG');
+			$('#parking2').text('LEDIG');
 		} else {
-			$('#parking1').text('FULL');
+			$('#parking2').text('FULL');
 		}
 	},
  	BUTTON: data => {
